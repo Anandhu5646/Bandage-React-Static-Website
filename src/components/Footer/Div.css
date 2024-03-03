@@ -1,0 +1,96 @@
+.made-with-love {
+  width: 336px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.col-md-7 {
+  width: 600px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.facebook-icon,
+.instagram-icon,
+.twitter-icon {
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook-icon,
+.instagram-icon {
+  height: 24px;
+  min-height: 24px;
+}
+.twitter-icon {
+  height: 19.8px;
+}
+.col-md-61,
+.social-media {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.social-media {
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 20px;
+}
+.col-md-61 {
+  width: 236px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.row11 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.container5,
+.div20,
+.row11 {
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+.container5 {
+  width: 1090px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-2xl) var(--padding-6xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+}
+.div20 {
+  align-self: stretch;
+  background-color: var(--text-color);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--h6-size);
+  color: var(--light-text-color);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 1050px) {
+  .row11 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .div20 {
+    gap: 0 40px;
+  }
+}
